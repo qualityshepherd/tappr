@@ -1,4 +1,4 @@
-[![Deploy static content to Pages](https://github.com/qualityshepherd/tappr/actions/workflows/deploy2pages.yml/badge.svg)](https://github.com/qualityshepherd/tappr/actions/workflows/deploy2pages.yml)
+[![Run Tests](https://github.com/qualityshepherd/tappr/actions/workflows/run_tests.yml/badge.svg)](https://github.com/qualityshepherd/tappr/actions/workflows/run_tests.yml)
 # tappr
 
 Minimal E2E test runner using [Tape](https://github.com/substack/tape) and [Puppeteer](https://www.npmjs.com/package/puppeteer) — easy to grok, easy to extend, hard to outgrow.
