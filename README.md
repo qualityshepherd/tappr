@@ -25,8 +25,13 @@ Minimal E2E test runner using [Tape](https://github.com/substack/tape) and [Pupp
 - `--headed` run with visible browser
 - `--slomo=N` slow motion mode in ms per action (e.g. `--slomo=250`)
 
+## Extend
+The easiest way is just throw `/lib/tappr.js` into your project and edit to taste. Then import it into your tests. Add functionality as you go!
+
+Slightly harder way: fork it and install into your project.
+
 ## Writing Tests
-Use Tape as usual and wrap your test with tappr:
+Use Tape (or another runner) as usual and wrap your test with tappr thusly:
 ```javascript
 import test from 'tape'
 import { tappr } from '../lib/tappr.js'
