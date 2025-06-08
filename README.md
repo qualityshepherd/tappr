@@ -26,7 +26,7 @@ Minimal E2E test runner using [Tape](https://github.com/substack/tape) and [Pupp
 
 ## Writing Tests
 Use Tape as usual and wrap your test with tappr:
-```
+```javascript
 import test from 'tape'
 import { tappr } from '../lib/tappr.js'
 
