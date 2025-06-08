@@ -19,8 +19,8 @@
     "tappr": "./bin/tappr.js"
   },
   "scripts": {
-    "test": "tappr test/**/*.test.js",
-    "headed": "tappr --headed --slomo=200 test/**/*.test.js",
+    "test": "npx tappr test/**/*.test.js",
+    "headed": "npx tappr --headed --slomo=200 test/**/*.test.js",
     "pretty": "npx standard"
   },
   "dependencies": {
