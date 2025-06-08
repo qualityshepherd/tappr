@@ -10,7 +10,6 @@ Minimal E2E test runner using [Tape](https://github.com/substack/tape) and [Pupp
 - Glob-based test discovery — use any file structure
 - Minimal wrapper with clear, hackable test DSL (`t.goto`, `t.click`, etc.)
 - Easily extensible or swappable
-- Should run with Jest, uvu, etc... assuming the runner supports async tests and passes a test object (t) or similar.
 - No globals, no magic, no framework lock-in
 
 ## Install
